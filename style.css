@@ -1,0 +1,69 @@
+*{
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    margin: 0;
+
+}
+
+header {
+   display: flex;
+    align-items: center;
+    background-color: black;
+   color: yellow ;
+    padding: 20px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 95vw ;
+}
+
+header h1 {
+    margin: 0 ;
+}
+
+header li {
+    display: inline;
+    list-style: none;
+}
+
+header a{
+    color: yellow;
+}
+
+header a:hover {
+    color: green;
+    transition: all 0.15s linear;
+}
+
+main {
+    margin-top: 100px;
+}
+
+#about {
+    margin: 0 auto;
+    max-width: 75vw ;
+}
+
+#about img {
+    display: block;
+    margin: 0 auto;
+}
+
+#contact {
+    margin: 0 auto;
+    max-width: 75vw;
+}
+
+#contact form {
+    border: solid 5px green;
+    border-radius: 5%;
+    padding: 20px;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.formgroup {
+    margin: 15px 0;
+}
